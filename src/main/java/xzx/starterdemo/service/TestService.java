@@ -1,6 +1,7 @@
-package com.example.starter.starterdemo.service;
+package xzx.starterdemo.service;
 
 import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -9,9 +10,10 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 @AllArgsConstructor
+@NoArgsConstructor
 public class TestService {
 
-    private final String msg;
+    private String msg;
 
     public void testMsg() {
         log.info("test msg : {}", msg);

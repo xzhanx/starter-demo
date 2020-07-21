@@ -1,11 +1,10 @@
-package com.example.starter.starterdemo.config;
+package xzx.starterdemo.config;
 
-import com.example.starter.starterdemo.properties.TestMsg;
-import com.example.starter.starterdemo.service.TestService;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import xzx.starterdemo.properties.TestMsg;
+import xzx.starterdemo.service.TestService;
 
 /**
  * @author xzx
@@ -13,7 +12,6 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 @EnableConfigurationProperties(TestMsg.class)
-@ConditionalOnProperty(prefix = "import")
 public class TestConfig {
 
     @Bean

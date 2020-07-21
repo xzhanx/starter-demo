@@ -1,4 +1,4 @@
-package com.example.starter.starterdemo;
+package xzx.starterdemo;
 
 /**
  * @author xzx

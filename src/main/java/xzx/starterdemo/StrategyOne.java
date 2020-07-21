@@ -1,4 +1,4 @@
-package com.example.starter.starterdemo;
+package xzx.starterdemo;
 
 import lombok.extern.slf4j.Slf4j;
 

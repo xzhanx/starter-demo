@@ -1,4 +1,4 @@
-package com.example.starter.starterdemo.properties;
+package xzx.starterdemo.properties;
 
 import lombok.Getter;
 import lombok.Setter;
