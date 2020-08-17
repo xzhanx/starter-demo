@@ -16,6 +16,6 @@ public class TestConfig {
 
     @Bean
     public TestService testService(TestMsg testMsg) {
-        return new TestService(testMsg.getMsg());
+        return new TestService(testMsg);
     }
 }
